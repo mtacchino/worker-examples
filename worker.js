@@ -4,7 +4,7 @@ self.onmessage = event => {
   self.postMessage(result);
 };
 
-//Calculate the nth fibonacci number
+// Naively calculate the nth fibonacci number
 function fibonacci(n) {
     if (n === 0 || n === 1) {
         return n;
